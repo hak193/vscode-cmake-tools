@@ -11,6 +11,7 @@ Features:
   section of the Testing tab.
   [#4040](https://github.com/microsoft/vscode-cmake-tools/issues/4040)
 - Add basic CMake language services: quick hover and completions for CMake built-ins. [PR #4204](https://github.com/microsoft/vscode-cmake-tools/pull/4204)
+- Add `cmake.ignoredFolders` setting that allows users to set folders that they want the CMake Tools extension to ignore, as well as general improvements detecting whether it's a CMake project. [#4112](https://github.com/microsoft/vscode-cmake-tools/issues/4112)
 
 Improvements:
 
