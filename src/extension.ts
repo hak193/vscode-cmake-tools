@@ -257,7 +257,7 @@ export class ExtensionManager implements vscode.Disposable {
 
         let isMultiProject = false;
         if (vscode.workspace.workspaceFolders) {
-            await this.projectController.loadAllProjects();
+            await this.projectController.loadAllFolders();
             isMultiProject = this.projectController.hasMultipleProjects;
             await setContextAndStore(multiProjectModeKey, isMultiProject);
             this.projectOutline.addAllCurrentFolders();
