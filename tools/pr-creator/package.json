@@ -8,7 +8,7 @@
     "lint": "eslint src --ext ts --max-warnings 0"
   },
   "dependencies": {
-    "azure-devops-node-api": "~11.0.1"
+    "azure-devops-node-api": "~14.1.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",
