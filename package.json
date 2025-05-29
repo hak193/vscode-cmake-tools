@@ -3752,7 +3752,7 @@
     "build-product-icon-font": "yarn --cwd ./tools/product-icon-font-generator/ install && yarn --cwd ./tools/product-icon-font-generator/ build && node ./tools/product-icon-font-generator/dist/index.js --source-directory ./res/product-icons/ --output-directory ./res/ --woff2"
   },
   "devDependencies": {
-    "@octokit/rest": "^18.1.1",
+    "@octokit/rest": "^22.0.0",
     "@types/ajv": "^0.0.5",
     "@types/chai": "^4.2.15",
     "@types/chai-as-promised": "^7.1.3",
